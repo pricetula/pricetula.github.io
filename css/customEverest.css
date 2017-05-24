@@ -7,7 +7,7 @@ xoxkontrol styling sheet over riding materialize specific.
 
 .font_dubtronic{ font-family: 'dubtronicregular';font-size:4em;font-weight:800;}
 
-.font_dosis{ font-family: 'Dosis', sans-serif;font-size:3em;}
+.font_dosis{ font-family: 'Dosis', sans-serif;font-size:2.5em;}
 
 .margin{margin:0.8em;}
 .padding{padding:0.5em;}
@@ -89,11 +89,15 @@ nav ul li a {
 nav ul li a#icon-only:hover {
    background-color:#dcdeff;
 }
+nav ul li a#icon-only:hover {
+   background-color:#dcdeff;
+}
 nav ul li a .material-icons{
   font-size: 1.5em;
 }
 ul.dropdown-content li a {
   color: #3e2200;
+  font-size: 0.8em;
 }
 .h1_banner{
   color: #3e2200;
@@ -109,6 +113,19 @@ ul.dropdown-content li a {
 
 body{
   overflow-x:hidden;
+}
+.separator {
+  border-bottom: 1px solid #ebdecf;
+}
+.card-image{
+  max-height: 300px;
+  overflow-y: hidden;
+}
+.card-content p {
+  font-size: 0.9em;
+}
+footer.page-footer {
+  background-color: #6b573f;
 }
 
 /*TextField  onChange={e => e.stopPropagation()} /> */
