@@ -3,6 +3,8 @@ $(document).ready(function(){
 
   $('.parallax').parallax();
 
+  $('select').material_select();
+
   AOS.init();
 
   $('.dropdown-button').dropdown({
@@ -11,7 +13,7 @@ $(document).ready(function(){
     }
   );
 
-  $('a').on('click', function (event) {
+  $('.smoothScroll').on('click', function (event) {
     if (this.hash !== '#' && this.hash !== '') {
       event.preventDefault();
 

@@ -66,7 +66,7 @@ p{ font-size:1.2em; }
   background-position:center;
 }
 .picContainer {
-  background-size:100%;
+  background-size:cover;
   background-repeat:no-repeat;
   background-position:center;
 }
@@ -99,7 +99,7 @@ ul.dropdown-content li a {
   color: #3e2200;
   font-size: 0.8em;
 }
-.h1_banner{
+.h1_banner, h2, p, ol{
   color: #3e2200;
 }
 .navbar-fixed{
@@ -128,4 +128,12 @@ footer.page-footer {
   background-color: #6b573f;
 }
 
+.parallaxCareer-container {
+  height: 600px;
+  overflow: hidden;
+}
+
+#career{
+  background-color: white;
+}
 /*TextField  onChange={e => e.stopPropagation()} /> */
