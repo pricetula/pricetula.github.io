@@ -1,0 +1,11 @@
+.navbar-fixed { z-index: 9999; }
+
+.brand-logo span {
+  margin-left: 0.5em;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.brand-logo span .light {
+  margin-left: 0.2em;
+  font-weight: normal;
+}
