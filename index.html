@@ -15,8 +15,8 @@
 <body>
   <div class="navbar-fixed">
     <nav>
-      <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">
+      <div class="nav-wrapper grey darken-4">
+        <a href="index.html" class="brand-logo">
           <span>
             Price
             <span class="light">
@@ -29,8 +29,8 @@
         </a>
         <ul class="right hide-on-med-and-down">
           <li>
-            <a href="#work">
-              <i class="material-icons left">work</i>Work</a>
+            <a href="#demo">
+              <i class="material-icons left">airplay</i>Demos</a>
           </li>
           <li>
             <a href="#skills">
@@ -44,6 +44,10 @@
 
         <ul class="side-nav" id="mobile-menu">
           <li>
+            <a href="#demo">
+              <i class="material-icons left">airplay</i>Demos</a>
+          </li>
+          <li>
             <a href="#skills">
               <i class="material-icons left">assignment_turned_in</i>Skills</a>
           </li>
@@ -54,6 +58,282 @@
         </ul>
       </div>
     </nav>
+  </div>
+
+  <!--INTRO BANNER-->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="images/Code_data.jpg">
+    </div>
+  </div>
+
+  <!--INTRO SECTION-->
+  <div class="section white h300">
+    <div class="row container">
+      <h2 class="header">About Me</h2>
+      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground
+        content while scrolling.</p>
+    </div>
+  </div>
+
+  <!--DEMO BANNER-->
+  <div class="parallax-container" id="demo">
+    <div class="parallax">
+      <img src="images/Code_data.jpg">
+    </div>
+  </div>
+  
+  <!--DEMO SECTION-->
+  <div class="section white h900">
+    <div class="row container">
+      <h2 class="header">Demo</h2>
+      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground
+        content while scrolling.
+      </p>
+    </div>
+
+    <div class="row container">
+      <div class="col s12">
+        <ul class="tabs">
+          <li class="tab col s6">
+            <a class="active" href="#frontend">Front End</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#backend">Back End</a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="frontend" class="col s12 tab-padding">
+        <h5>React Cool Cat</h5>
+        <p>
+          <a href="https://react-coolcat.herokuapp.com/">Coolcat</a> demo is a <b>server side rendered</b> ReactJS web app designed with <b>Material-UI</b>. <b>Redux</b> and <b>Redux-Saga</b> used for state management and data fetching from a RESTful server asynchronously.
+        </p>
+        <ul class="collection">
+          <li class="collection-item avatar">
+            <i class="material-icons circle indigo darken-3">polymer</i>
+            <span class="title grey-text grey-darken-1">Material-UI Framework</span>
+            <p>
+              Material-UI framework implements Google's Material design specification for beautiful responsive User Interfaces.
+            </p>
+          </li>
+          <li class="collection-item avatar">
+            <i class="material-icons circle pink accent-3">touch_app</i>
+            <span class="title grey-text grey-darken-1">React JS</span>
+            <p>
+              React JS library used for UI interactivity and management of component state this increases quality in user experience.
+            </p>
+          </li>
+          <li class="collection-item avatar">
+            <i class="material-icons circle teal accent-4">data_usage</i>
+            <span class="title grey-text grey-darken-1">Redux JS</span>
+            <p>
+              Redux JS package used to store application-wide state as a single source preventing cyclic state effects.
+            </p>
+          </li>
+          <li class="collection-item avatar">
+            <i class="material-icons circle red accent-4">cached</i>
+            <span class="title grey-text grey-darken-1">Redux-Saga JS</span>
+            <p>
+              Redux-Saga JS package used as a middle ware to add effects on asynchronous function calls such as "loading" etc.
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div id="backend" class="col s12 tab-padding">
+        <h5>Express RESTful API server</h5>
+        <p>
+          <a href="https://express-coolcat.herokuapp.com/">Coolcat Server</a> is a RESTful API server with a MongoDB database hosted on Mlab platform and MongooseJS used as ORM.
+        </p>
+        <ul class="collection">
+          <li class="collection-item avatar">
+            <i class="material-icons circle light-blue darken-3">public</i>
+            <span class="title grey-text grey-darken-1">RESTful Express API Server</span>
+            <p>
+              Back-end server developed using Express framework built with a RESTful achitecture.
+            </p>
+          </li>
+          <li class="collection-item avatar">
+            <i class="material-icons circle indigo darken-3">save</i>
+            <span class="title grey-text grey-darken-1">MongoDB & Mongoose</span>
+            <p>
+              MongoDB no-sql database hosted on <a href="https://mlab.com/">Mlab</a> Database-as-a-Service is used to store data using MongooseJS Object relational mapping package tool.
+            </p>
+          </li>
+          <li class="collection-item avatar">
+            <i class="material-icons circle red accent-4">lock</i>
+            <span class="title grey-text grey-darken-1">Authentication</span>
+            <p>
+              Passport JS and JSON Web Tokens are used to authenticate user routes on restricted API endpoints.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!--SKILL BANNER-->
+  <div class="parallax-container" id="skills">
+    <div class="parallax">
+      <img src="images/Code_data.jpg">
+    </div>
+  </div>
+  
+  <!--SKILL SECTION-->
+  <div class="section white h300">
+    <div class="row container">
+      <h2 class="header">Skills</h2>
+      <p class="grey-text text-darken-3 lighten-3">
+        Below is a list of my relevant skills. Click on each tab to get extra details.
+      </p>
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">devices</i>Frontend Web & Mobile app Design
+          </div>
+          <div class="collapsible-body">
+            <ul class="collection">
+              <li class="collection-item">
+                <span class="title">React framework</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  Library for creating interactive User Interfaces.
+                </p>
+              </li>
+              <li class="collection-item">
+                <span class="title">React Native framework</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  Framework for developing cross platform Mobile apps for IOS and Android.
+                </p>
+              </li>
+              <li class="collection-item">
+                <span class="title">Redux & Redux-Saga</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  Packages used to manage application wide state and async operations handled on the state.
+                </p>
+              </li>
+              <li class="collection-item">
+                <span class="title">Responsive Design</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  Responsive design of web apps to resize according to aspect ratio of the window.
+                </p>
+              </li>
+              <li class="collection-item">
+                <span class="title">Materialize-UI, Material-UI, Semantic-UI and Bootstrap</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  CSS frameworks for the User Interface.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">filter_drama</i>Backend</div>
+          <div class="collapsible-body">
+            <ul class="collection">
+              <li class="collection-item">
+                <span class="title">Express JS</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  NodeJS language based framework for designing RESTful API server.
+                </p>
+              </li>
+              <li class="collection-item">
+                <span class="title">MongoDB database</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  No-Sql database best used for fast database writes.
+                </p>
+              </li>
+              <li class="collection-item">
+                <span class="title">PassportJS & JWT</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  JSON Web Tokens are used to safely propagate encoded data over HTTP protocol and PassportJS is used for authentication
+                </p>
+              </li>
+              <li class="collection-item">
+                <span class="title">Gorilla Mux</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  Go language based framework for designing RESTful API server.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">bug_report</i>Testing</div>
+          <div class="collapsible-body">
+            <ul class="collection">
+              <li class="collection-item">
+                <span class="title">Mocha JS</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  Testing framework used to run tests on NodeJS.
+                </p>
+              </li>
+              <li class="collection-item">
+                <span class="title">Chai & Sinon</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  Packages for spying, stubbing, mocking and asserting tests.
+                </p>
+              </li>
+              <li class="collection-item">
+                <span class="title">Enzyme JS</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  Enzyme testing package used for shallow or full dom mounting for react components to help in assertions and simple mocks.
+                </p>
+              </li>
+              <li class="collection-item">
+                <span class="title">Nightwatch JS</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  End to End test framework for "mocking" user end acceptance tests
+                </p>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
 
   <!--Import jQuery before materialize.js-->
