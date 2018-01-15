@@ -39,7 +39,34 @@
   background-color:#F0F0F0!important;
 }
 
+.footer-copyright{
+  background-color:#000!important;
+}
+
 /* --------------------------------------------------------------- */
+.icon-link{
+  text-decoration: none;
+  font-size: 2.5em;
+  margin:0.5em;
+}
+.banner-text{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.banner-text h1,
+.banner-text h2,
+.banner-text h3,
+.banner-text h4,
+.banner-text h5 {
+  color: white;
+  font-weight: normal;
+}
+.banner-text h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
 .tab-padding { margin-top: 2em; }
 
 .h50,
