@@ -13,6 +13,10 @@ h4.header {
   font-weight: bold;
 }
 
+.collection-item > p {
+  max-width: 96%;
+}
+
 .parallax-container {
   height: 600px;
   position: relative;

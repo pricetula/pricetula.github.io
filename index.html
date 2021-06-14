@@ -256,12 +256,107 @@
       <ul class="collapsible" data-collapsible="accordion">
         <li>
           <div class="collapsible-header">
+            <i class="material-icons">border_color</i>Clean Coding
+          </div>
+          <div class="collapsible-body">
+            <ul class="collection">
+              <li class="collection-item">
+                <span class="title">Container Layouts first</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  Page layouts will always have fetching, submit, update, delete and state logic of child components.
+                </p>
+              </li>
+              <li class="collection-item">
+                <span class="title">Layer Abstraction</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  As a <a target="_blank" href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">Clean Architecture</a> enthusiast I always encourage design patterns which have no package dependencies in business rules of an application and container based approach on React/ Vue apps. This reduces complexity in setting up unit tests.
+                </p>
+              </li>
+
+              <li class="collection-item">
+                <span class="title">Code formatting</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  To adhere in a constant formatting of code rules I always use Airbnb settings for Eslint/ Tslint (Typescript) with pre-commit git hooks to run linting after every commit.
+                </p>
+              </li>
+
+              <li class="collection-item">
+                <span class="title">BEM or CSS Modules</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  To avoid one of the most annoying Frontend bugs (styling bugs) I always demand projects be implemnted follwing <a target="_blank" href="http://getbem.com/introduction/">BEM class naming</a> or employment of <a target="_blank" href="https://github.com/css-modules/css-modules">CSS modules</a>.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">how_to_reg</i>Management skills
+          </div>
+          <div class="collapsible-body">
+            <ul class="collection">
+              <li class="collection-item">
+                <span class="title">Communication with Feature Stake holders</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  Understanding stakeholder's priorities and expectations of shipping a successful feature
+                </p>
+              </li>
+              <li class="collection-item">
+                <span class="title">Peer programming</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  Peer programming with other software developers encouraging learning and sharpening of skills to efficiently tackle desired tasks.
+                </p>
+              </li>
+              <li class="collection-item">
+                <span class="title">Kanban tasks</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  Strong and strict beleiver in a Kanban like process ie:- all feautures to be worked on should be properly estimated. Fave tools are <a target="_blank" href="https://azure.microsoft.com/en-us/services/devops/boards/">Azure boards</a> or <a target="_blank" href="https://clubhouse.io/vs/kanban1/">Club house</a>
+                </p>
+              </li>
+
+              <li class="collection-item">
+                <span class="title">Kanban tasks</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  Strong and strict beleiver in a Kanban like process ie:- all feautures to be worked on should be properly estimated. Fave tools are <a target="_blank" href="https://azure.microsoft.com/en-us/services/devops/boards/">Azure boards</a> or <a target="_blank" href="https://clubhouse.io/vs/kanban1/">Club house</a>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <div class="collapsible-header">
             <i class="material-icons">devices</i>Frontend React and Vue implementation
           </div>
           <div class="collapsible-body">
             <ul class="collection">
               <li class="collection-item">
-                <span class="title">React framework</span>
+                <span class="title">React Library & VueJS framework</span>
                 <a href="#!" class="secondary-content">
                   <i class="material-icons">check</i>
                 </a>
@@ -279,7 +374,7 @@
                 </p>
               </li>
               <li class="collection-item">
-                <span class="title">Redux & Redux-Saga</span>
+                <span class="title">VueX, Redux & Redux-Saga</span>
                 <a href="#!" class="secondary-content">
                   <i class="material-icons">check</i>
                 </a>
@@ -324,30 +419,30 @@
                 </p>
               </li>
               <li class="collection-item">
-                <span class="title">MongoDB database</span>
-                <a href="#!" class="secondary-content">
-                  <i class="material-icons">check</i>
-                </a>
-                <p>
-                  No-Sql database best used for fast database writes.
-                </p>
-              </li>
-              <li class="collection-item">
-                <span class="title">PassportJS & JWT</span>
-                <a href="#!" class="secondary-content">
-                  <i class="material-icons">check</i>
-                </a>
-                <p>
-                  JSON Web Tokens are used to safely propagate encoded data over HTTP protocol and PassportJS is used for authentication
-                </p>
-              </li>
-              <li class="collection-item">
-                <span class="title">Gorilla Mux</span>
+                <span class="title">Gin-gonic Golang</span>
                 <a href="#!" class="secondary-content">
                   <i class="material-icons">check</i>
                 </a>
                 <p>
                   Go language based framework for designing RESTful API server.
+                </p>
+              </li>
+              <li class="collection-item">
+                <span class="title">Postgres & MongoDB database</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  No-Sql and SQL (Postgres) database best used for fast database read/ write operations.
+                </p>
+              </li>
+              <li class="collection-item">
+                <span class="title">Auth0, PassportJS & JWT</span>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">check</i>
+                </a>
+                <p>
+                  JSON Web Tokens are used to safely propagate encoded data over HTTP protocol for authentication
                 </p>
               </li>
             </ul>
@@ -360,7 +455,7 @@
           <div class="collapsible-body">
             <ul class="collection">
               <li class="collection-item">
-                <span class="title">Mocha JS</span>
+                <span class="title">Jest & Mocha JS</span>
                 <a href="#!" class="secondary-content">
                   <i class="material-icons">check</i>
                 </a>
