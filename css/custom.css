@@ -1,21 +1,34 @@
 .navbar-fixed { z-index: 9999; }
 
+h2.header {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+h4.header {
+  margin-top: 30px;
+}
+
 .collection-item .title {
   font-weight: bold;
 }
 
 .parallax-container {
   height: 600px;
+  position: relative;
+}
+
+.nav-wrapper {
+  padding: 0 3rem;
 }
 
 .brand-logo span {
-  margin-left: 0.5em;
-  font-size: 0.9em;
+  font-size: 1.4rem;
   font-weight: bold;
 }
 
 .brand-logo span .light {
-  margin-left: 0.2em;
+  margin-left: 0.2rem;
   font-weight: normal;
 }
 
@@ -46,12 +59,17 @@
 /* --------------------------------------------------------------- */
 .icon-link{
   text-decoration: none;
-  font-size: 2.5em;
-  margin:0.5em;
+  font-size: 2.5rem;
+  margin:0.5rem;
 }
 .banner-text{
-  text-align: center;
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: rgba(0,0,0, .4);
+  width: 100%;
+  height: 100%;
 }
 
 .banner-text h1,
@@ -62,12 +80,16 @@
   color: white;
   font-weight: normal;
 }
+.banner-text h1,
+.banner-text h2 {
+  text-align: center;
+}
 .banner-text h1 {
-  font-size: 3.5em;
+  font-size: 3.5rem;
   font-weight: bold;
 }
 
-.tab-padding { margin-top: 2em; }
+.tab-padding { margin-top: 2rem; }
 
 .h50,
 .h100,
@@ -80,7 +102,7 @@
 .h800,
 .h900,
 .h1000 {
-  min-height: 50px;  
+  min-height: 50px;
 }
 .h100{min-height: 100px;}
 .h200{min-height: 200px;}
